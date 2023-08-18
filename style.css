@@ -1,0 +1,418 @@
+* {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+        width: 100%;
+        height: 100%;
+}
+
+.navbar {
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+}
+
+.navbar-ul1 {
+        width: 120px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.navbar-ul1 button {
+        width: 50px;
+        height: 25px;
+        border-radius: 0px 10px 10px 0px;
+}
+
+.navbar-ul2 {
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
+.container-text {
+        width: 100%;
+        height: 200px;
+        background-color: black;
+        color: white;
+}
+
+.product {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+}
+
+.product h1 {
+        font-size: 110px;
+}
+
+.maths-new {
+        width: 100%;
+
+}
+
+.current {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 19px;
+        color: white;
+        background-color: black;
+}
+
+.current1 {
+        width: 400px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.current2 {
+        width: 400px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.current3 {
+        width: 150px;
+        height: 60px;
+        display: flex;
+        align-items: end;
+}
+
+.current3-img {
+        width: 35px;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+}
+
+.current a {
+        color: white;
+}
+
+/*  */
+.img-section {
+        width: 100%;
+        height: 500px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+}
+
+.img1 {
+        width: 1200px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("./Image/maths.gif");
+        background-position: center;
+        background-size: cover;
+        border-radius: 0px 220px 220px 0px;
+}
+
+.box1 {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        background-color: rgb(7, 219, 219);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        COLOR: black;
+        font-weight: bold;
+        text-align-last: center;
+        flex-direction: column;
+        position: relative;
+        bottom: 180px;
+        left: 250px;
+}
+
+.box1 h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box1 p {
+        font-size: 12px;
+}
+
+.box2 {
+        width: 200px;
+        height: 50px;
+        line-height: 13px;
+        background-color: rgb(248, 195, 59);
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        right: 10px;
+        rotate: -10deg;
+        bottom: 30px;
+}
+
+.box3 {
+        width: 210px;
+        height: 120px;
+        line-height: 25px;
+        background-color: orangered;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        position: relative;
+        top: 120px;
+        right: 100px;
+        rotate: 30deg;
+        bottom: 50px;
+}
+
+.box4 {
+        width: 150px;
+        color: aliceblue;
+        text-align: center;
+        position: relative;
+        bottom: 130px;
+        left: 230px;
+        rotate: 10deg;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.box41 {
+        width: 70px;
+        height: 20px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box42 {
+        width: 150px;
+        height: 35px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box43 {
+        width: 100px;
+        height: 20px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.box5 {
+        width: 150px;
+        height: 80px;
+        background-color: aqua;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        position: relative;
+        left: 280px;
+        rotate: -20deg;
+}
+
+.box6 {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        background-color: lightgreen;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 140px;
+        right: 50px;
+}
+
+.box6 img {
+        height: 80px;
+}
+
+.man {
+        width: 250px;
+        height: 350px;
+        position: relative;
+        right: 495px;
+        top: 27px;
+}
+
+@media (max-width:768px) {
+        .container {
+                width: 100%;
+        }
+
+        .navbar {
+                width: 100%;
+        }
+
+        .navbar-ul2 {
+                width: 300px;
+        }
+
+        .container-text {
+                width: 100%;
+        }
+
+        .product {
+                width: 100%;
+        }
+
+        .product h1 {
+                font-size: 80px;
+                padding-left: 30px;
+        }
+
+        .current {
+                width: 100%;
+        }
+
+        .current1 {
+                width: 250px;
+                font-size: 14px;
+        }
+
+        .current2 {
+                width: 250px;
+                font-size: 14px;
+        }
+
+        .current3 {
+                width: 200px;
+                font-size: 14px;
+        }
+
+        .img-section {
+                width: 100%;
+                height: 350px;
+        }
+
+        .img1 {
+                width: 95%;
+                height: 320px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-position: center;
+                border-radius: 0px 220px 220px 0px;
+                position: absolute;
+        }
+
+        .box1 {
+                width: 100px;
+                height: 100px;
+                border-radius: 100px;
+                background-color: rgb(7, 219, 219);
+                position: absolute;
+                bottom: 250px;
+                left: 150px;
+                font-size: 10px;
+        }
+
+        .box1 h1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+
+        .box1 p {
+                font-size: 12px;
+        }
+
+        .box2 {
+                width: 150px;
+                height: 50px;
+                line-height: 13px;
+                background-color: rgb(248, 195, 59);
+                position: absolute;
+                right: 550px;
+                bottom: 150px;
+                rotate: -10deg;
+        }
+
+        .box3 {
+                width: 150px;
+                height: 80px;
+                line-height: 25px;
+                background-color: orangered;
+                position: absolute;
+                top: 215px;
+                right: 550px;
+                rotate: 30deg;
+                font-size: 10px;
+        }
+
+        .box4 {
+                background-color: red;
+                color: aliceblue;
+                position: absolute;
+                bottom: 220px;
+                left: 500px;
+                rotate: 10deg;
+        }
+
+        .box5 {
+                width: 130px;
+                height: 60px;
+                background-color: aqua;
+                color: black;
+                position: absolute;
+                left: 580px;
+                bottom: 130px;
+                rotate: -20deg;
+                font-size: 15px;
+        }
+
+        .box6 {
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 220px;
+                right: 120px;
+        }
+
+        .box6 img {
+                height: 50px;
+        }
+
+        .man {
+                width: 180px;
+                height: 260px;
+                position: absolute;
+                left: 255px;
+                top: 60px;
+        }
+}
